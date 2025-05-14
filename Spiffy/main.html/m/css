@@ -1,0 +1,29 @@
+/* Terms & Conditions Section */
+.terms-section {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin: 3rem auto;
+  max-width: 800px;
+}
+
+.terms-section h2 {
+  font-size: 2rem;
+  color: #e63946;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.terms-section h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  color: #333;
+}
+
+.terms-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  color: #555;
+}

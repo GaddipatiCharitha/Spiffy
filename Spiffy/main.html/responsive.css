@@ -1,0 +1,253 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utility Classes */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Top Navigation */
+.top-nav {
+  background-color: #111;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
+.top-nav .container {
+  justify-content: space-between;
+}
+
+.top-nav ul li a {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.top-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Navigation */
+.navigation {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 20px 0;
+}
+
+.nav-center {
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  color: #e63946;
+  font-weight: bold;
+}
+
+.nav-list {
+  gap: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #e63946;
+}
+
+.icons .icon {
+  margin-left: 1rem;
+  position: relative;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.icons .icon span {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: #e63946;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Hamburger for Mobile */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Sign-Up Form */
+.login-form {
+  max-width: 500px;
+  background: #fff;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.login-form p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.login-form a {
+  color: #e63946;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form label {
+  display: block;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.login-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.cancelbtn,
+.signupbtn {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cancelbtn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.signupbtn {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.signupbtn:hover {
+  background-color: #d62839;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 3rem 1rem;
+  margin-top: 4rem;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer .col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer h4 {
+  color: #e63946;
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  display: block;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer span i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer span i:hover {
+  color: #e63946;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .footer .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .login-form {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+}
