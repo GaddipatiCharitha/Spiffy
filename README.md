@@ -9,3 +9,7 @@
 ![WhatsApp Image 2025-05-14 at 15 11 27_a18a2137](https://github.com/user-attachments/assets/da47498c-4466-4d62-8bc8-0b74ed7cd687)
 SPIFFY
 Spiffy is your one-stop shop for custom-printed clothing that stands out. We blend creativity with comfort, offering personalized designs on t-shirts, hoodies, and more—perfect for self-expression, events.
+
+
+Uploading SPIFFY _E-Commerce Website - Google Chrome 2025-07-28 10-56-02.mp4…
+
